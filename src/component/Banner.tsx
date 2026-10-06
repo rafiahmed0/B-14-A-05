@@ -11,8 +11,8 @@ function Banner() {
         </p>
 
         <div className="flex items-center gap-4">
-          <button className="text-sm text-white font-semibold px-4 py-1.5 bg-gradient-to-r from-[#FF5722] to-[#D81B7E] rounded-md">Explore Technologies</button>
-          <button className=" bg-white text-gray-500 font-semibold px-6 py-1  border border-gray-300 rounded-md">Learn More</button>
+          <button className="text-sm text-white font-semibold px-4 py-1.5 bg-gradient-to-r from-[#FF5722] to-[#D81B7E] rounded-md cursor-pointer">Explore Technologies</button>
+          <button className=" bg-white text-gray-500 font-semibold px-6 py-1  border border-gray-300 rounded-md cursor-pointer">Learn More</button>
         </div>
       </div>
 
