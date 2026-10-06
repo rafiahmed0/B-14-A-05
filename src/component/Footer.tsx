@@ -12,13 +12,13 @@ const Footer = () => {
             modern software.
           </p>
           <div className="flex items-center gap-4 pt-2 mt-3 text-sm font-medium">
-            <a href="https://github.com" target="#" rel="noreferrer">
+            <a href="https://github.com" target="#">
               GitHub
             </a>
-            <a href="https://twitter.com" target="#" rel="noreferrer">
+            <a href="https://twitter.com" target="#">
               Twitter
             </a>
-            <a href="https://linkedin.com" target="#" rel="noreferrer">
+            <a href="https://linkedin.com" target="#">
               LinkedIn
             </a>
           </div>
@@ -45,11 +45,15 @@ const Footer = () => {
         </div>
       </div>
       <hr className=" max-w-6xl mx-auto px-4 border-gray-200 mt-16" />
-      <div className=" max-w-6xl mx-auto px-4 flex justify-between mt-10 mb-150 text-gray-500 text-sm">
+      <div className=" max-w-6xl mx-auto px-4 flex justify-between mt-10 mb-5 text-gray-500 text-sm">
         <p>© 2026 Dev Stack. All rights reserved.</p>
         <div className="flex gap-5">
-          <p>Privacy</p>
-          <p>Terms</p>
+            <a href="#" className="mb-1  text-sm text-gray-500">
+              Privacy Policy
+            </a>
+            <a href="#" className="mb-1  text-sm text-gray-500">
+              Terms
+            </a>
         </div>
       </div>
     </div>
