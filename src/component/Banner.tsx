@@ -2,7 +2,7 @@ import BannerImage from "../assets/banner-stack.png"
 
 function Banner() {
   return (
-    <section className="flex items-center justify-between gap-8 max-w-6xl mx-auto my-1 px-4">
+    <section className="max-w-6xl mx-auto px-4 flex items-center justify-between gap-8 my-1">
       <div className=" flex-1 space-y-4">
         <h1 className="text-4xl font-extrabold text-black">Build Your Ideal <br /><span className="bg-gradient-to-r from-[#FF5722] via-[#D81B7E] to-[#7C3AED] bg-clip-text text-transparent">Development Stack</span></h1>
 

@@ -15,7 +15,7 @@ function App() {
   const techPromise = techData();
   return (
     <div>
-      <div>
+      <div className="sticky top-0 z-50 bg-white">
         <Nav />
         <hr className="border-gray-200" />
       </div>

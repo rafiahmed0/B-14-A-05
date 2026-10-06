@@ -2,7 +2,7 @@ import Logo from "../assets/logo-text.png";
 
 function Nav() {
   return (
-    <nav className="container max-auto flex items-center justify-between my-2 px-18">
+    <nav className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
       <img src={Logo} alt="Logo" className="h-8" />
 
       <ul className="flex items-center gap-8 ">
